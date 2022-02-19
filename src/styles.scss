@@ -94,29 +94,20 @@ body{
         opacity: 0.7;
     }
 
-    .accordion{
-        .card{
-            background: transparent;
-            border: 1px 0px solid #6dd3ec;
-        }
-        .card-header{
-            background: transparent;
-            height: 0px;
-            display: none;
-        }
-        
-    }
+    
 
     
 }
-.card{
-    background: transparent;
-    border: 1px 0px solid #6dd3ec;
-}
-.card-header{
-    background: transparent;
-    height: 0px;
-    display: none;
+.accordion{
+    .card{
+        background: transparent;
+        border: 1px 0px solid #6dd3ec;
+    }
+    .card-header{
+        background: transparent;
+        height: 0px;
+        display: none;
+    }   
 }
 .btn-menu{
     width: 70px;
@@ -141,6 +132,7 @@ body{
         margin-right: 10px;
     }
 }
+
 .card-mode-1{
     padding: 40px;
     // background: #374564c4;
@@ -150,6 +142,9 @@ body{
     font-family: 'Nunito', sans-serif;
     color: #fff;
     text-shadow: 0px 0px 10px #18b1d7;  
+    .card{
+        background: transparent;
+    }
     .card-header{
         // background: #374564c4;
         background: none;
@@ -168,9 +163,7 @@ body{
         border: none;
     }
 }
-.modal-content{
-    @extend .card-mode-1
-}
+
 .card-mode-1::before{
     content: " ";
     position: absolute;
@@ -190,7 +183,39 @@ body{
         calc(100% - 10px) 0,
         100% 10px,
         100% 100px,
-        calc(100% - 10px) 110px,
+        calc(100% - 39px) 130px,
+
+        calc(100% - 39px) 135px,
+        calc(100% - 10px) 113px,
+        calc(100% - 10px) 130px,
+        calc(100% - 39px) 153px,
+
+        calc(100% - 39px) 158px,
+        calc(100% - 10px) 136px,
+        calc(100% - 10px) 153px,
+        calc(100% - 39px) 176px,
+
+        calc(100% - 39px) 181px,
+        calc(100% - 10px) 159px,
+        calc(100% - 10px) 177px,
+        calc(100% - 39px) 200px,
+
+        calc(100% - 39px) 207px,
+        calc(100% - 34px) 207px,
+        calc(100% - 2px) 182px,
+        calc(100% - 2px) 107px,
+        100% 107px,
+        100% 183px,
+        calc(100% - 25px) 203px,
+        calc(100% - 25px) calc(100% - 170px),
+        calc(100% - 34px) calc(100% - 178px),
+        calc(100% - 34px) 207px,
+        calc(100% - 39px) 207px,
+
+        calc(100% - 39px) calc(100% - 173px),
+        calc(100% - 25px) calc(100% - 160px),
+        calc(100% - 25px) calc(100% - 100px),
+        calc(100% - 10px) calc(100% - 90px),
         calc(100% - 10px) calc(100% - 10px),
         calc(100% - 20px) 100%,
         calc(100% - 150px) 100%,
@@ -199,7 +224,7 @@ body{
         10px calc(100% - 57px),
         10px 20px,
 
-        15px 20px,
+        15px 20px, /* Start Inline */
         15px calc(100% - 105px),
         20px calc(100% - 100px),
         20px calc(100% - 60px),
@@ -217,6 +242,7 @@ body{
         10px 20px,
     );
 }
+
 .card-mode-1::after{
     content: " ";
     z-index: -1;
@@ -249,19 +275,60 @@ body{
         15px 22px,
     );
 }
-// .card-mode-1 div:first-child::before{
+
+.card-mode-1-header{
+    padding: 0;
+    border-bottom: 20px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #6dd3ec;
+    clip-path: polygon(
+        0 calc(100% - 21px),
+        0 0,
+        100% 0,
+        100% calc(100% - 21px),
+        0 calc(100% - 21px),
+
+        20px 100%,
+        40px 100%,
+        20px calc(100% - 21px),
+
+        30px calc(100% - 21px),
+        50px 100%,
+        70px 100%,
+        50px calc(100% - 21px),
+
+        60px calc(100% - 21px),
+        80px 100%,
+        100px 100%,
+        80px calc(100% - 21px),
+
+        90px calc(100% - 21px),
+        110px 100%,
+        100% 100%,
+        100% calc(100% - 2px),
+        108.1px calc(100% - 2px),
+        90px calc(100% - 21px),
+    );
+}
+// .card-mode-1-header::after{
 //     content: " ";
-//     margin: -17px -25px;
+//     background: #6dd3ec;
 //     position: absolute;
-//     width: calc(100% + 10px);
-//     height: calc(100% + 10px);
-//     background : #5d7276;
-//     clip-path: polygon(
-//         7px 0,
-//         100% 0,
-//         100% 100%,
-//         7px 100%,
-//         0 calc(100% - 7px),
-//         0 7px
-//     );
+//     width: calc(100% - 100px);
+//     height: 20px;
+//     // border: 10px solid #6dd3ec;
+//     overflow: hidden;
+//     // bottom: 0;
+//     // clip-path: polygon(
+
+//     // );
 // }
+.modal-content{
+    @extend .card-mode-1
+}
+.modal-header{
+    @extend .card-mode-1-header
+}
