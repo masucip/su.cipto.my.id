@@ -1,7 +1,60 @@
-<div class="modal-body info text-center">
-    <h3 class="title">All About Me</h3>
-    <div class="description">
-        Just Nothing
+<!-- <div class="sc-home">
+    
+</div> -->
+<div class="modal-header">
+    <h3>My Profile</h3>
+</div>
+<div class="modal-body text-center">
+    <div class="row">
+        <div class="col-md-5">
+            <h3 class="title">All About Me</h3>
+            <div class="description">
+                Just Nothing
+            </div>
+            <button class="btn btn-menu btn-outline-info rounded-circle mr-2" active=true (click)="acc.toggle('profile')">
+                <i class="bi-person-badge"></i>
+                <p class="mb-0">Profile</p>
+            </button>
+            <button class="btn btn-menu btn-outline-info rounded-circle mr-2" (click)="acc.toggle('skill')">
+                <i class="bi-postcard"></i>
+                <p class="mb-0">Skill</p>
+            </button>
+            <button class="btn btn-menu btn-outline-info rounded-circle mr-2" (click)="acc.toggle('project')">
+                <i class="bi-receipt"></i>
+                <p class="mb-0">Project</p>
+            </button>
+        </div>
+        <div class="col-md-7">
+            <ngb-accordion #acc="ngbAccordion" activeIds="profile">
+                <ngb-panel id="profile">
+                    <ng-template ngbPanelContent>
+                        <ul class="list-group list-group-flush text-left">
+                            <li class="list-group-item p-1 d-flex" *ngFor="let pr of profile">
+                                <div class="d-flex align-items-center">
+                                    <i [ngClass]="pr.icon" class="icon"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <i class="judul">{{ pr.judul }}</i>
+                                    <h3 class="ket">{{ pr.ket }}</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel id="skill">
+                    <ng-template ngbPanelContent>
+                        Typing 10 Jari
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel id="project">
+                    <ng-template ngbPanelContent>
+                        Gak ada
+                    </ng-template>
+                </ngb-panel>
+            </ngb-accordion>
+        </div>
     </div>
+</div>
+<div class="modal-footer align-center">
     <button type="button" class="btn btn-outline-info rounded-pill" (click)="modalActive.close()">Close</button>
 </div>
