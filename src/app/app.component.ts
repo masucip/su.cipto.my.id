@@ -15,7 +15,7 @@ export class AppComponent {
 
   }
   openModalProfile(){
-    this.modal.open(ProfileComponent, {windowClass: 'modal-animation', centered:true, ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
+    this.modal.open(ProfileComponent, {windowClass: 'modal-animation modal-mode-11', modalDialogClass : 'card-mode-11', centered:true, ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
       
     }, (reason) => {
       
