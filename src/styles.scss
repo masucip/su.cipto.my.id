@@ -6,14 +6,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 body{
     height: 100vh;
-    background: #dddcdc;
+    background: #959292;
 }
 .profile{
     // height: 142px;
     // border-bottom-left-radius: 70px;
     // border-top-left-radius: 70px;
+    text-shadow: 0px 0px 10px #18b1d7;
+    color: #fff;
+    background: #374564c4;
     border-top-right-radius: 50px !important;
     border-bottom-right-radius: 50px !important;
+    border: 2px solid #6dd3ec;
     .foto{
         margin-left: 7px;
     }
@@ -313,6 +317,147 @@ body{
         90px calc(100% - 21px),
     );
 }
+.card-mode-1-footer{
+    padding: 4px;
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 20px;
+    border-right: 0;
+    border-style: solid;
+    border-color: #6dd3ec;
+    clip-path: polygon(
+        0 18px,
+        calc(100% - 108.1px) 18px,
+        calc(100% - 110px) 21px,
+        calc(100% - 100px) 21px,
+        calc(100% - 80px) 0,
+
+        calc(100% - 60px) 0,
+        calc(100% - 80px) 21px,
+        calc(100% - 70px) 21px,
+        calc(100% - 50px) 0,
+
+        calc(100% - 30px) 0,
+        calc(100% - 50px) 21px,
+        calc(100% - 40px) 21px,
+        calc(100% - 20px) 0,
+
+        100% 0,
+        calc(100% - 20px) 21px,
+        100% 21px,
+        100% 100%,
+        0 100%
+    );
+}
+
+.btn-mode-1{
+    text-shadow: 0px 0px 10px #18b1d7;
+    color: #fff;
+    border-radius: 0;
+    border-left: 35px;
+    border-right: 35px;
+    border-top: 0;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color: #6dd3ec;
+    clip-path: polygon(
+        0 0,
+        5px 0,
+        15px 100%,
+        20px 100%,
+        10px 0,
+
+        15px 0,
+        25px 100%,
+        30px 100%,
+        20px 0,
+
+        25px 0,
+        34px calc(100% - 4px),
+        35px calc(100% - 4px),
+        35px 0,
+
+        calc(100% - 35px) 0,
+        calc(100% - 35px) calc(100% - 4px),
+        calc(100% - 26px) calc(100% - 4px),
+        calc(100% - 35px) 0,
+
+        calc(100% - 30px) 0,
+        calc(100% - 20px) 100%,
+        calc(100% - 15px) 100%,
+        calc(100% - 25px) 0,
+
+        calc(100% - 20px) 0,
+        calc(100% - 10px) 100%,
+        calc(100% - 5px) 100%,
+        calc(100% - 15px) 0,
+
+        calc(100% - 10px) 0,
+        100% 100%,
+
+        
+        10px 100%
+    );
+    // 5px 5px,
+    //     5px calc(100% - 10px),
+    //     calc(100% - 10px) calc(100% - 10px),
+    //     calc(100% - 10px) 10px,
+    //     0 5px,
+}
+.btn-mode-1:hover{
+    background: none;
+}
+
+.btn-mode-2{
+    text-shadow: 0px 0px 10px #18b1d7;
+    color: #fff;
+    border: 10px solid #6dd3ec;
+    border-radius: 0;
+    padding: 0px 0.75rem;
+    clip-path: polygon(
+        10px 0,
+
+        20px 0,
+        25px 4px,
+        calc(100% - 25px) 4px,
+        calc(100% - 20px) 0,
+
+        calc(100% - 10px) 0,
+        100% 10px,
+        100% calc(100% - 10px),
+        calc(100% - 10px) 100%,
+
+        calc(100% - 20px) 100%,
+        calc(100% - 25px) calc(100% - 4px),
+        25px calc(100% - 4px),
+        20px 100%,
+
+        10px 100%,
+        0 calc(100% - 10px),
+        0 10px,
+        /* Inner */
+        5px 12.5px,
+        5px calc(100% - 12.5px),
+        12.5px calc(100% - 5px),
+        calc(100% - 12.5px) calc(100% - 5px),
+        calc(100% - 5px) calc(100% - 12.5px),
+        calc(100% - 5px) 12.5px,
+        calc(100% - 12.5px) 5px,
+        12.5px 5px,
+        5px 12.5px,
+
+        11px 11px,
+        calc(100% - 11px) 11px,
+        calc(100% - 11px) calc(100% - 11px),
+        11px calc(100% - 11px),
+        11px 11px,
+        5px 12.5px,
+        0 10px,
+    );
+}
+.btn-mode-2:hover{
+    background: none;
+}
 // .card-mode-1-header::after{
 //     content: " ";
 //     background: #6dd3ec;
@@ -331,4 +476,7 @@ body{
 }
 .modal-header{
     @extend .card-mode-1-header
+}
+.modal-footer{
+    @extend .card-mode-1-footer
 }
