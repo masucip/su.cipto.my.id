@@ -1,0 +1,39 @@
+<ng-template #modalProfile let-modal>
+    <div class="modal-header">
+        <h3 class="m-0">My Profile</h3>
+    </div>
+    <div class="modal-body p-0">
+        <div class="row">
+            <div class="col-md-5 text-center">
+                <h3 class="title">All About Me</h3>
+                <div class="description">
+                    Just Nothing
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-outline-info btn-mode-3" routerLink="info">
+                        <i class="bi-person-badge"></i>
+                        <p class="mb-0">Profile</p>
+                    </button>
+                    <button class="btn btn-outline-info btn-mode-3" routerLink="skill">
+                        <i class="bi-postcard"></i>
+                        <p class="mb-0">Skill</p>
+                    </button>
+                    <button class="btn btn-info btn-mode-3" routerLink="project">
+                        <i class="bi-receipt"></i>
+                        <p class="mb-0">Project</p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="card border-0">
+                    <div class="card-body p-2">
+                        <router-outlet></router-outlet>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer align-center">
+        <button type="button" class="btn btn-outline-info btn-mode-2" (click)="modal.close()">Close</button>
+    </div>
+</ng-template>
