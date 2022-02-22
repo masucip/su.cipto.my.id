@@ -17,6 +17,10 @@ input{
     color: #fff !important;
     font-weight: bold !important;
 }
+.modal-backdrop{
+    width: 100%;
+    height: 100%;
+}
 body{
     height: 100vh;
     background: #959292;
@@ -125,6 +129,9 @@ body{
     }
 }
 
+.img-mode-1{
+    
+}
 
 .modal-mode-1 .modal-content{
     @extend .card-mode-1

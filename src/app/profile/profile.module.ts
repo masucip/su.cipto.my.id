@@ -6,17 +6,34 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProfilComponent } from './profil/profil.component';
 import { SkillComponent } from './skill/skill.component';
 import { ProjectComponent } from './project/project.component';
-import { HomeComponent } from './home/home.component';
 
 
-const routes: Routes = [{ path: '', component: ProfileComponent }];
+const routes: Routes = [
+  { 
+    path: '', 
+    component: ProfileComponent , 
+    children:[
+      {
+        path : '', redirectTo : 'info', pathMatch : 'full'
+      },
+      {
+        path : 'info', component : ProfilComponent
+      },
+      {
+        path : 'skill', component : SkillComponent
+      },
+      {
+        path : 'project', component : ProjectComponent
+      }
+    ]
+  }
+];
 @NgModule({
   declarations: [
     ProfileComponent,
     ProfilComponent,
     SkillComponent,
-    ProjectComponent,
-    HomeComponent
+    ProjectComponent
   ],
   imports: [
     CommonModule,

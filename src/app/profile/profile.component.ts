@@ -1,7 +1,6 @@
-import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbAccordionConfig, NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-profile',
@@ -10,6 +9,7 @@ import { HomeComponent } from './home/home.component';
   providers: [NgbAccordionConfig]
 })
 export class ProfileComponent implements AfterViewInit, OnDestroy {
+  @ViewChild('modalProfile') modalProfile:any;
   constructor(
     public modal : NgbModal,
     private route : Router
@@ -24,7 +24,7 @@ export class ProfileComponent implements AfterViewInit, OnDestroy {
       }
   }
   ngAfterViewInit(): void {
-    this.modal.open(HomeComponent, {windowClass: 'modal-animation', modalDialogClass : 'modal-mode-1', centered:true, ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
+    this.modal.open(this.modalProfile, {windowClass: 'modal-animation', modalDialogClass : 'modal-mode-1', centered:true, ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
       this.route.navigate(['/'])
     }, (reason) => {
       this.route.navigate(['/'])
