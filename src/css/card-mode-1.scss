@@ -1,0 +1,231 @@
+.card-mode-1{
+    padding: 40px;
+    background: none;
+    border: 0px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-shadow: 0px 0px 10px #18b1d7;  
+    min-height: 400px;
+    .card{
+        background: transparent;
+    }
+    .card-header{
+        // background: #374564c4;
+        background: none;
+        border: none;
+    }
+    .card-body{
+        // font-family: 'Nunito', sans-serif;
+        // background: #374564c4;
+        // color: #fff;
+        // text-shadow: 0px 0px 10px #18b1d7;  
+        border: none;
+    }
+    .card-footer{
+        // background: #374564c4;
+        background: none;
+        border: none;
+    }
+}
+
+.card-mode-1::before{
+    content: " ";
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    margin: -40px;
+
+    border-width : 40px;
+    border-style : solid;
+    border-color : #6dd3ec;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    
+    clip-path: polygon(
+        20px 10px,
+        calc(100% - 100px) 10px,
+        calc(100% - 90px) 0,
+        calc(100% - 10px) 0,
+        100% 10px,
+        100% 100px,
+        calc(100% - 39px) 130px,
+
+        calc(100% - 39px) 135px,
+        calc(100% - 10px) 113px,
+        calc(100% - 10px) 130px,
+        calc(100% - 39px) 153px,
+
+        calc(100% - 39px) 158px,
+        calc(100% - 10px) 136px,
+        calc(100% - 10px) 153px,
+        calc(100% - 39px) 176px,
+
+        calc(100% - 39px) 181px,
+        calc(100% - 10px) 159px,
+        calc(100% - 10px) 177px,
+        calc(100% - 39px) 200px,
+
+        calc(100% - 39px) 207px,
+        calc(100% - 34px) 207px,
+        calc(100% - 2px) 182px,
+        calc(100% - 2px) 107px,
+        100% 107px,
+        100% 183px,
+        calc(100% - 25px) 203px,
+        calc(100% - 25px) calc(100% - 170px),
+        calc(100% - 34px) calc(100% - 178px),
+        calc(100% - 34px) 207px,
+        calc(100% - 39px) 207px,
+
+        calc(100% - 39px) calc(100% - 173px),
+        calc(100% - 25px) calc(100% - 160px),
+        calc(100% - 25px) calc(100% - 100px),
+        calc(100% - 10px) calc(100% - 90px),
+        calc(100% - 10px) calc(100% - 10px),
+        calc(100% - 20px) 100%,
+        calc(100% - 150px) 100%,
+        calc(100% - 160px) calc(100% - 10px),
+        57px calc(100% - 10px),
+        10px calc(100% - 57px),
+        10px 20px,
+        /* Start Inline */
+        15px 20px, 
+        15px 100px, 
+        35px 120px,
+        35px 180px,
+        25px 190px,
+        25px calc(100% - 140px),
+        29px calc(100% - 135px),
+        29px calc(100% - 114px),
+        35px calc(100% - 108px),
+        35px calc(100% - 60px),
+
+        30px calc(100% - 65px),
+        30px calc(100% - 104px),
+        24px calc(100% - 110px),
+        24px 220px,
+        20px 214px,
+        20px 187px,
+        30px 177px,
+        30px 123px,
+        15px 108px,
+
+        15px calc(100% - 105px),
+        20px calc(100% - 100px),
+        20px calc(100% - 60px),
+        60px calc(100% - 20px),
+        100px calc(100% - 20px),
+        105px calc(100% - 15px),
+        calc(100% - 30px) calc(100% - 15px),
+        calc(100% - 25px) calc(100% - 20px),
+        calc(100% - 25px) calc(100% - 80px),
+        calc(100% - 40px) calc(100% - 90px),
+        calc(100% - 40px) 20px,
+        calc(100% - 45px) 15px,
+        22px 15px,
+        15px 22px,
+        10px 20px,
+    );
+}
+
+.card-mode-1::after{
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    background: #374564c4;
+    margin: -40px;
+
+    border-width : 40px;
+    border-style : solid;
+    border-color : transparent;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    
+    clip-path: polygon(
+        15px 20px,
+        15px calc(100% - 105px),
+        20px calc(100% - 100px),
+        20px calc(100% - 60px),
+        60px calc(100% - 20px),
+        100px calc(100% - 20px),
+        105px calc(100% - 15px),
+        calc(100% - 30px) calc(100% - 15px),
+        calc(100% - 25px) calc(100% - 20px),
+        calc(100% - 25px) calc(100% - 80px),
+        calc(100% - 40px) calc(100% - 90px),
+        calc(100% - 40px) 20px,
+        calc(100% - 45px) 15px,
+        22px 15px,
+        15px 22px,
+    );
+}
+
+.card-mode-1-header{
+    padding: 0;
+    border-bottom: 20px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #6dd3ec;
+    clip-path: polygon(
+        0 calc(100% - 21px),
+        0 0,
+        100% 0,
+        100% calc(100% - 21px),
+        0 calc(100% - 21px),
+
+        20px 100%,
+        40px 100%,
+        20px calc(100% - 21px),
+
+        30px calc(100% - 21px),
+        50px 100%,
+        70px 100%,
+        50px calc(100% - 21px),
+
+        60px calc(100% - 21px),
+        80px 100%,
+        100px 100%,
+        80px calc(100% - 21px),
+
+        90px calc(100% - 21px),
+        110px 100%,
+        100% 100%,
+        100% calc(100% - 2px),
+        108.1px calc(100% - 2px),
+        90px calc(100% - 21px),
+    );
+}
+.card-mode-1-footer{
+    padding: 4px;
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 20px;
+    border-right: 0;
+    border-style: solid;
+    border-color: #6dd3ec;
+    clip-path: polygon(
+        0 18px,
+        calc(100% - 108.1px) 18px,
+        calc(100% - 110px) 21px,
+        calc(100% - 100px) 21px,
+        calc(100% - 80px) 0,
+
+        calc(100% - 60px) 0,
+        calc(100% - 80px) 21px,
+        calc(100% - 70px) 21px,
+        calc(100% - 50px) 0,
+
+        calc(100% - 30px) 0,
+        calc(100% - 50px) 21px,
+        calc(100% - 40px) 21px,
+        calc(100% - 20px) 0,
+
+        100% 0,
+        calc(100% - 20px) 21px,
+        100% 21px,
+        100% 100%,
+        0 100%
+    );
+}
