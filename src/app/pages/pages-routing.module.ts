@@ -9,7 +9,7 @@ const routes: Routes = [
     component: PagesComponent,
     children : [
       {
-        path : 'kebijakan-privasi-toko-q',
+        path : 'kebijakan-privasi-toko-q-v1',
         component : KebijakanPrivasiTokoQComponent
       }
     ]
