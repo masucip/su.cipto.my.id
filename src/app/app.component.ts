@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   openModalProfile(){
     // this.modal.open(ProfileComponent, {windowClass: 'modal-animation', modalDialogClass : 'modal-mode-1', centered:true, ariaLabelledBy: 'modal-basic-title', size: 'lg'}).result.then((result) => {
       
-    // }, (reason) => {
+    
       
 
   }
