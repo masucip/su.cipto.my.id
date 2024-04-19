@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1713516211059,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/133.94b92e9f88095775.js",
+        "/392.b4781c0fbccdc2e0.js",
+        "/80.f83efe709ac8ef40.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.e9c6b2bb08c99399.js",
+        "/manifest.webmanifest",
+        "/polyfills.df4114102cb34772.js",
+        "/runtime.3a3d8ed612d73ba6.js",
+        "/styles.2330de28c205e7af.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/profile.jpeg",
+        "/assets/project/aorta.png",
+        "/assets/project/medys.png",
+        "/assets/teknologi/angular.png",
+        "/assets/teknologi/bootstrap.png",
+        "/assets/teknologi/css.png",
+        "/assets/teknologi/express.png",
+        "/assets/teknologi/jquery.png",
+        "/assets/teknologi/js.png",
+        "/assets/teknologi/laravel.png",
+        "/assets/teknologi/nestjs.png",
+        "/assets/teknologi/nodejs.png",
+        "/assets/teknologi/php.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/133.94b92e9f88095775.js": "f62213e356849763401a4797069b3c26a3c67860",
+    "/392.b4781c0fbccdc2e0.js": "f9cd90593f19352edab0122852997bdf53663f96",
+    "/80.f83efe709ac8ef40.js": "6b2fd1523ffeef7f3de6fee25ac50b784d3e8372",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/profile.jpeg": "c5e5bf8b214116b3fffa623fab247a22c9feb100",
+    "/assets/project/aorta.png": "6ac8d69ecbba64c7ac2496b8c3effa0cce20ddd2",
+    "/assets/project/medys.png": "2ddef38b0a297f11fb887b019215ad446374c511",
+    "/assets/teknologi/angular.png": "260711ff2b8b85a3eff6d0188b17360043154c85",
+    "/assets/teknologi/bootstrap.png": "8faed1d219f1b0cbc5e67e51b75f9044c0b185e0",
+    "/assets/teknologi/css.png": "2946ca01b14417f830245d531121f14a2cfe3ab3",
+    "/assets/teknologi/express.png": "e7952df318e57bf544e88be7d6d8f10f439fe54a",
+    "/assets/teknologi/jquery.png": "3ee60127732dd0e19aa57c65d89b3f8087b6622c",
+    "/assets/teknologi/js.png": "a9666a27c4c4807ef426c400ff44639ac9cc7cb7",
+    "/assets/teknologi/laravel.png": "126fe36b28e95c8446d886aca66865f62210d713",
+    "/assets/teknologi/nestjs.png": "1561b1d74a62198231212733a6f66204939a32cb",
+    "/assets/teknologi/nodejs.png": "bd569a95c9a2b85afc70df4bb821da55d63d60e6",
+    "/assets/teknologi/php.png": "2472455a917ff2f7d6d6003f401cee37cf7cd74c",
+    "/favicon.ico": "9d0fc7ab828bd27f32736ad188eb441a6a216947",
+    "/index.html": "dccf3df356561ceaa62ddb365f5e495fe6e692d1",
+    "/main.e9c6b2bb08c99399.js": "4398919935988d08910a8636bad5a6f8555ed7c0",
+    "/manifest.webmanifest": "3361b0499fb2c0b4b35fc08d66a91271b1b44daa",
+    "/polyfills.df4114102cb34772.js": "185493926cb59b098ddc695f4a7b368692550332",
+    "/runtime.3a3d8ed612d73ba6.js": "ebb2e6e27672c1bdb1db5f196665abf9c8889d6f",
+    "/styles.2330de28c205e7af.css": "24d47800f0e0625da4e9acdda63988c449df4f08"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
