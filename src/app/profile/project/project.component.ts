@@ -9,6 +9,22 @@ import { MsgService } from 'src/app/service/msg.service';
 export class ProjectComponent implements OnInit {
   project : any = [
     {
+      icon : '../assets/project/epe.png',
+      nama : 'SIEDCO',
+      ket : 'ERP Perusaahaan Tambang Batubara',
+      des : '',
+      status : 1,
+      start : 'Juni 2023'
+    },
+    {
+      icon : '../assets/project/bbs.png',
+      nama : 'SIBCOAL',
+      ket : 'ERP Perusaahaan Trader Batubara',
+      des : '',
+      status : 1,
+      start : 'Juni 2024'
+    },
+    {
       icon : '../assets/project/medys.png',
       nama : 'MEDYS',
       ket : 'Medical Education System',

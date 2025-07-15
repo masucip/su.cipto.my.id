@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1713516211059,
+  "timestamp": 1752551767436,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,14 +12,14 @@
       },
       "urls": [
         "/133.94b92e9f88095775.js",
-        "/392.b4781c0fbccdc2e0.js",
+        "/392.23f8ea20fb0e4723.js",
         "/80.f83efe709ac8ef40.js",
         "/favicon.ico",
         "/index.html",
         "/main.e9c6b2bb08c99399.js",
         "/manifest.webmanifest",
         "/polyfills.df4114102cb34772.js",
-        "/runtime.3a3d8ed612d73ba6.js",
+        "/runtime.84a78ffe71e08050.js",
         "/styles.2330de28c205e7af.css"
       ],
       "patterns": []
@@ -42,6 +42,8 @@
         "/assets/icons/icon-96x96.png",
         "/assets/profile.jpeg",
         "/assets/project/aorta.png",
+        "/assets/project/bbs.png",
+        "/assets/project/epe.png",
         "/assets/project/medys.png",
         "/assets/teknologi/angular.png",
         "/assets/teknologi/bootstrap.png",
@@ -60,7 +62,7 @@
   "dataGroups": [],
   "hashTable": {
     "/133.94b92e9f88095775.js": "f62213e356849763401a4797069b3c26a3c67860",
-    "/392.b4781c0fbccdc2e0.js": "f9cd90593f19352edab0122852997bdf53663f96",
+    "/392.23f8ea20fb0e4723.js": "ceb76e42465c83ac3b3151834bec098c55d0115f",
     "/80.f83efe709ac8ef40.js": "6b2fd1523ffeef7f3de6fee25ac50b784d3e8372",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -72,6 +74,8 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/profile.jpeg": "c5e5bf8b214116b3fffa623fab247a22c9feb100",
     "/assets/project/aorta.png": "6ac8d69ecbba64c7ac2496b8c3effa0cce20ddd2",
+    "/assets/project/bbs.png": "6bb6c7000735a8d5d9d9b42c1bf849014450ed8e",
+    "/assets/project/epe.png": "c05e89b64b9ba7de3877371814c4917b85593ef1",
     "/assets/project/medys.png": "2ddef38b0a297f11fb887b019215ad446374c511",
     "/assets/teknologi/angular.png": "260711ff2b8b85a3eff6d0188b17360043154c85",
     "/assets/teknologi/bootstrap.png": "8faed1d219f1b0cbc5e67e51b75f9044c0b185e0",
@@ -84,11 +88,11 @@
     "/assets/teknologi/nodejs.png": "bd569a95c9a2b85afc70df4bb821da55d63d60e6",
     "/assets/teknologi/php.png": "2472455a917ff2f7d6d6003f401cee37cf7cd74c",
     "/favicon.ico": "9d0fc7ab828bd27f32736ad188eb441a6a216947",
-    "/index.html": "dccf3df356561ceaa62ddb365f5e495fe6e692d1",
+    "/index.html": "ada8e8583ee68ffb0776722390f88d4cf13fb212",
     "/main.e9c6b2bb08c99399.js": "4398919935988d08910a8636bad5a6f8555ed7c0",
     "/manifest.webmanifest": "3361b0499fb2c0b4b35fc08d66a91271b1b44daa",
     "/polyfills.df4114102cb34772.js": "185493926cb59b098ddc695f4a7b368692550332",
-    "/runtime.3a3d8ed612d73ba6.js": "ebb2e6e27672c1bdb1db5f196665abf9c8889d6f",
+    "/runtime.84a78ffe71e08050.js": "d284e355c6b647e1ce88b52a430acf6d02444746",
     "/styles.2330de28c205e7af.css": "24d47800f0e0625da4e9acdda63988c449df4f08"
   },
   "navigationUrls": [
